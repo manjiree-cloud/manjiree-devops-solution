@@ -3,6 +3,7 @@ pipeline {
     environment {
         TF_BACKEND_BUCKET = '467.devops.candidate.exam'
         TF_REGION = "ap-south-1"
+        BRANCH_NAME = "main"
     }
     stages {
         stage('TF Init') {

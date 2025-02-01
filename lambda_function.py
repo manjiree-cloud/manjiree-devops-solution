@@ -4,10 +4,10 @@ import os
 
 def lambda_handler(event, context):
    
-    subnet_id = os.environ['10.0.5.0/24']
+    subnet_id = os.environ['10.0.4.0/24']
     
     payload = {
-       "subnet_id": "10.0.5.0/24",
+       "subnet_id": "10.0.4.0/24",
         "name": "Manjiree Pahade",
         "email": "pahademanjiree@gmail.com"
     }
